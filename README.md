@@ -1,5 +1,4 @@
 # Stock_Market_Predictive_Model_LSTM
-Stock Price Prediction using LSTM
 This project demonstrates how to scrape historical stock data, perform feature engineering, and use an LSTM (Long Short-Term Memory) neural network to predict future stock prices. The example uses Tesla (TSLA) stock data from Yahoo Finance, but it can be adapted for other stocks by changing the ticker symbol.
 
 **Requirements**
@@ -18,6 +17,7 @@ This code is designed to run in Google Colab, which provides a convenient enviro
 
 # Usage
 Follow these steps to run the code in Google Colab:
+* (Run in Colab)[https://colab.research.google.com/github/zirrashaphan/Stock_Market_Predictive_Model_LSTM/blob/main/Stock_Market_Predictive_Model_LSTM.ipynb]
 * **Mount Google Drive**: The code mounts your Google Drive to save and load data. Execute the cell with drive.mount('/content/drive') and authenticate when prompted.
 * **Scrape Data**: The code scrapes historical stock data for the specified ticker (default: TSLA) from Yahoo Finance for the given date range (default: 2015-01-01 to 2024-10-31).
 * **Save Data**: The scraped data is saved as a CSV file in your Google Drive under the Datasets folder (e.g., /content/drive/My Drive/Datasets/TSLA_stock_data.csv).
